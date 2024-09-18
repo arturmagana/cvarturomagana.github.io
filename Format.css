@@ -1,0 +1,68 @@
+.body {
+    cfont-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #0f0f0f;
+    color: #fff;
+}
+
+.contact-info {
+    background-color: #222;
+    color: #00ff00;
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: rgba(0, 0, 0, 0.85);
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+    position: relative;
+    z-index: 1;
+}
+.contact-info p {
+    margin: 5px 0;
+}
+.contact-info {
+    padding: 10px;
+    border-radius: 40px;
+    animation: growIn 1.2s ease-in-out;
+}
+.code {
+    position: absolute;
+    color: rgba(0, 255, 0, 0.8);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    white-space: nowrap;
+    animation: moveCode 10s linear infinite;
+}
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+        border-bottom: 2px solid #00ff00;
+        padding-bottom: 5px;
+    }
+.background {
+    position: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Asegura que el fondo no afecte el desplazamiento */
+    z-index: 0;
+}
+.ul {
+    list-style: none;
+    padding: 0;
+    animation: fadeInRight 1s ease-in-out;
+}
+
+
+.a:hover {
+    text-decoration: underline;
+    color: #00f;
+    transition: color 0.3s;
+}
